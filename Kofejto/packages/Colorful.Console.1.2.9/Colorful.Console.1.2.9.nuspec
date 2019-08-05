@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Colorful.Console</id>
+    <version>1.2.9</version>
+    <title>Colorful.Console</title>
+    <authors>Tom Akita,Muhammad Rehan Saeed,Matt Furden,Drew Noakes,Jamie Gould,Marcos Vinicius Maia,Sergey Korshunov,Adam Schiavone,IGusev,Shreyas Jejurkar</authors>
+    <owners>Tom Akita,Muhammad Rehan Saeed,Matt Furden,Drew Noakes,Jamie Gould,Marcos Vinicius Maia,Sergey Korshunov,Adam Schiavone,IGusev,Shreyas Jejurkar</owners>
+    <licenseUrl>https://github.com/tomakita/Colorful.Console/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>http://colorfulconsole.com/</projectUrl>
+    <iconUrl>http://colorfulconsole.com/images/colorful_icon_ngsize.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Style your C# console output!</description>
+    <summary />
+    <releaseNotes>Bug fixes</releaseNotes>
+    <copyright>@ Tom Akita. All rights Reserved.</copyright>
+    <tags>Style Styled Output Colourful Colorful Console Command Line ASCII Art FIGlet</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0" />
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework=".NETFramework4.5.1" />
+      <group targetFramework=".NETFramework4.5.2" />
+      <group targetFramework=".NETFramework4.6" />
+      <group targetFramework=".NETFramework4.6.1" />
+      <group targetFramework="Unsupported0.0">
+        <dependency id="Microsoft.CSharp" version="4.0.1" />
+        <dependency id="System.Collections" version="4.0.11" />
+        <dependency id="System.Collections.Concurrent" version="4.0.12" />
+        <dependency id="System.Console" version="4.0.0" />
+        <dependency id="System.Diagnostics.Debug" version="4.0.11" />
+        <dependency id="System.Dynamic.Runtime" version="4.0.11" />
+        <dependency id="System.Globalization" version="4.0.11" />
+        <dependency id="System.IO.FileSystem" version="4.0.1" />
+        <dependency id="System.Linq" version="4.1.0" />
+        <dependency id="System.Runtime" version="4.1.0" />
+        <dependency id="System.Runtime.Extensions" version="4.1.0" />
+        <dependency id="System.Runtime.InteropServices" version="4.1.0" />
+        <dependency id="System.Text.RegularExpressions" version="4.1.0" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="Microsoft.CSharp" targetFramework=".NETFramework4.0, .NETFramework4.5, .NETFramework4.5.1, .NETFramework4.5.2, .NETFramework4.6, .NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.0, .NETFramework4.5, .NETFramework4.5.1, .NETFramework4.5.2, .NETFramework4.6, .NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework=".NETFramework4.0, .NETFramework4.5, .NETFramework4.5.1, .NETFramework4.5.2, .NETFramework4.6, .NETFramework4.6.1" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
