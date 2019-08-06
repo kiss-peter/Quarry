@@ -319,7 +319,7 @@ namespace Kofejto
 
             while (true)
             {
-
+                // change
                 ConsoleKeyInfo key;
                 long kezdesiIdo = Jelen();
                 double utesido = GeneralIdo();
