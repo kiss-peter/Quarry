@@ -291,7 +291,7 @@ namespace Kofejto
             var path2 = path + "\\sweden.mp3";
 
             PlayFile(path2);
-            Console.WriteLine("Üdvözöllek a Kőfejtő nevezetű játékban.\nA játékban a SPACE billentyű segítségével, adott időközönként (1-3 mp, ne próbáld meg hamarabb) kiüthetsz egy blokkot,  ami dobhat: fát, követ, vasat, gyémántot, illetve bitcoint.\nEzekből a nyersanyagokból tudsz különböző dolgokat craftolni, illetve fejleszteni.\nAz inventory az I-vel nyitható meg, a craft menü a C-vel ,ez a bevezető, pedig a H-val.\n");
+            Console.WriteLine("Üdvözöllek a Kőfejtő nevezetű játékban.\nA játékban a SPACE billentyű segítségével, adott időközönként (1-3 mp, ne próbáld meg hamarabb) kiüthetsz egy blokkot,  ami dobhat: fát, követ, vasat, gyémántot, illetve bitcoint.\nEzekből a nyersanyagokból tudsz különböző dolgokat craftolni, illetve fejleszteni.\nAz inventory az I-vel nyitható meg, a craft menü a C-vel ,ez a bevezető, pedig a H-val.\nZenét készítette: C418\n");
             Sleep(1000);
             int vegSebzes;
             int regielet = 100;
@@ -719,7 +719,7 @@ namespace Kofejto
                                 Szines("Sikeresen lecraftoltál egy követ\n", Color.Green);
                                 Sleep(600);
                                 inv[1]++;
-                                inv[4] = inv[4] - 1;
+                                inv[4] = inv[4] - 6;
                                 goto CraftSystem;
 
                             }
